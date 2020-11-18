@@ -12,6 +12,7 @@
 - has_many :prototypes
 - has_many :comments
 
+
 ## prototypeテーブル
 | Column     | Type       | Options                        |
 | ---------- | ---------- | ------------------------------ |
@@ -23,6 +24,7 @@
 ### Association
 - belongs_to :user
 - has_many :comments
+
 
 
 ## commentsテーブル
